@@ -1,4 +1,3 @@
-
 def mostrar_tabuleiro(tab):
     for linha in tab:
         print(" | ".join(linha))
@@ -57,4 +56,5 @@ for rodada in range(9):
        jogador_atual = "X"
     else:
        jogador_atual = "O"
+
 
